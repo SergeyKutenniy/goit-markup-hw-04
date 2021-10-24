@@ -345,6 +345,48 @@ img {
   margin-right: 0;
 }
 
+.clients {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-icon {
+  display: flex;
+}
+
+.client-logo {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-icon .client-logo + .client-logo {
+  margin-left: 30px;
+}
+
+.symbol {
+  fill: rgba(175, 177, 184, 1);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.symbol:hover,
+.symbol:focus {
+  fill: #2196f3;
+}
+
+.client-logo:hover,
+.client-logo:focus {
+  border-color: #2196f3;
+}
+
 /* Футер Адрес */
 .address {
   font-style: normal;
@@ -396,7 +438,6 @@ img {
 
 .menu-social {
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .menu-socials-head {
@@ -412,6 +453,11 @@ img {
 
 .socials {
   display: flex;
+}
+
+.contacts-social {
+  display: flex;
+  align-items: baseline;
 }
 
 .link-icon {
@@ -430,19 +476,6 @@ img {
 .link-icon:hover {
   background-color: rgba(33, 150, 243, 1);
 }
-
-/* .icon-card {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  outline: 1px solid red;
-} */
 
 .icon-link {
   display: flex;
